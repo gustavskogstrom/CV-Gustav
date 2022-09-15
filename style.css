@@ -26,6 +26,7 @@ body{
     font-size: 25px;
 }
 .second{
+    display: flex;
     flex-direction: row;
     background-color: #ffffff;
     position: absolute;
