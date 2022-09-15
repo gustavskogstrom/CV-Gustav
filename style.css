@@ -1,5 +1,5 @@
 *{
-    color:rgb(0, 0, 0);
+    box-sizing: border-box;
 }
 p{
     color:rgb(0, 0, 0);
@@ -14,15 +14,38 @@ h2{
     color:rgb(0, 0, 0);
     text-align: center;
 }
+html {
+    display: block;
+}
 body{
     background-image: url('R.jpg');
     background-repeat: no-repeat;
     background-size: cover;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .main{
     display: flex;
     flex-direction: row;
     font-size: 25px;
+    align-items: center;
+    width: 100%;
+    height: 60%;
+}
+.contact{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    background-color: white;
+    left: 2%;
+    top: 10%;
+    padding: 1.5%;
+    font-size: 20px;
+    width: 400px;
+    height: 800px;
+    border: rgb(211, 219, 219) solid;
 }
 .second{
     display: flex;
@@ -57,23 +80,9 @@ body{
 
 }
 .links{
-    position: absolute;
-    top: 400px;   
+    position: relative;  
 }
     .fel{
-        position: absolute;
-        top: 100px;
+        position: relative;
+        padding-right: 1.5%;
     }
-.contact{
-        display: flex;
-        flex-direction: column;
-        position: absolute;
-        background-color: white;
-        left: 2%;
-        top: 10%;
-        padding: 1.5%;
-        font-size: 20px;
-        width: 400px;
-        height: 800px;
-        border: rgb(211, 219, 219) solid;
-}
