@@ -58,7 +58,7 @@ border: rgb(211, 219, 219) solid;
 }
 .links{
     position: absolute;
-    top: 200px;   
+    top: 400px;   
 }
 .contact{
     display: flex;
@@ -68,7 +68,7 @@ border: rgb(211, 219, 219) solid;
     padding: 1.5%;
     top: 550px;
     font-size: 20px;
-    width: 350px;
+    width: 400px;
     height: 370px;
     border: rgb(211, 219, 219) solid;
 
