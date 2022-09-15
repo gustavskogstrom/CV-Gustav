@@ -21,6 +21,7 @@ body{
 }
 .main{
     display: flex;
+    flex-direction: row;
     font-size: 25px;
 }
 .second{
