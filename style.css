@@ -30,7 +30,7 @@ body{
     position: absolute;
     top: 10%;
     width: 40%;
-    left: 22.5%;
+    left: 24.5%;
     padding: 1.5%;
     height: 800px;
     border: rgb(211, 219, 219) solid;
@@ -68,6 +68,7 @@ body{
         flex-direction: column;
         position: absolute;
         background-color: white;
+        left: 2%;
         top: 10%;
         padding: 1.5%;
         font-size: 20px;
