@@ -45,7 +45,7 @@ body{
 }
 .third{
 display: flex;
-flex-direction: row;
+flex-direction: column;
 background-color: #ffffff;
 width: 25%;
 position: absolute;
