@@ -65,3 +65,20 @@ body{
     margin: 1rem;
     list-style: none;
 }
+@media screen and (max-width:1024px){
+    .main{
+        display:flex;
+        flex-direction: column;
+    }
+    .contact{
+        width: 80%;
+        margin: 20px;
+    }
+    .second{
+        width: 80%;
+        margin: 20px;
+    }
+    .third{
+        width: 80%;
+        margin: 20px;
+    }
