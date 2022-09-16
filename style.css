@@ -50,11 +50,7 @@ body{
     min-height: 80vh;
     height: fit-content;
     border: rgb(211, 219, 219) solid;
-    }
-.information{
-}
-.experince{
-}
+ }
 .third{
     display: flex;
     flex-direction: column;
@@ -64,11 +60,6 @@ body{
     height: fit-content;
     padding: 1.5%;
     border: rgb(211, 219, 219) solid;
-
-}
-.links{  
-}
-.fel{
 }
 .list li{
     margin: 1rem;
